@@ -44,3 +44,8 @@ Run the `xo-install.sh` script and select the "Install" option from the menu.
 
 The same `xo-install.sh` script can also be used to update the Xen Orchestra installation.
 
+## Set up XOA on new XCP-ng host
+
+```bash
+bash -c "$(curl -sS http://xoa.io/deploy)"
+```
