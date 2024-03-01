@@ -16,6 +16,8 @@ You can clone this repo with the following command:
 git clone https://github.com/Layer8Err/finding-xen.git
 ```
 
+A script called `xoa-setup.sh` has been created to assist with building and installing XOA on a new VM.
+
 ## Quick Start
 
 Clone the Xen Orchestra Installer / Updater repo:
@@ -45,6 +47,8 @@ Run the `xo-install.sh` script and select the "Install" option from the menu.
 The same `xo-install.sh` script can also be used to update the Xen Orchestra installation.
 
 ## Set up XOA on new XCP-ng host
+
+To quickly get started, you can deploy the distributed XOA VM on the new Xen server using the command:
 
 ```bash
 bash -c "$(curl -sS http://xoa.io/deploy)"
